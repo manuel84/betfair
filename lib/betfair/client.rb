@@ -10,7 +10,10 @@ module Betfair
     DEFAULT_SETTINGS = { retries: 5 }
     OPERATIONS = {
       betting: [:list_event_types, :list_events, :list_market_catalogue,
-                :list_market_book, :place_orders, :list_competitions, :listMarketProfitAndLoss],
+                :list_market_book, :place_orders, :list_competitions, :list_market_profit_and_loss,
+                :list_countries, :list_current_orders, :list_cleared_orders, :list_market_types,
+                :list_time_ranges, :list_venues, :place_orders, :cancel_orders, :replace_orders,
+                :update_orders],
       account: [:get_account_funds]
     }
 
